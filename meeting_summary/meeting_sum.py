@@ -29,9 +29,6 @@ if st.button("🚀 处理") and (audio_file or image_file):
     with st.spinner("处理中，请稍候..."):
         # 转录音频
         
-        print(f"audio_file is {audio_file}")
-        print(f"image_file is {image_file}")
-        
         if audio_file:
             result = speech_fast_transcription.fast_transcript(audio_file)
             
