@@ -1,6 +1,6 @@
 # Meeting Assistant
 
-This project is a meeting assistant application built with Streamlit, utilizing Azure Speech and OpenAI's GPT-4 model to perform audio transcription, image analysis, and meeting summarization.
+This project is a meeting assistant application built with Streamlit, utilizing Azure Speech Fast Transcription and OpenAI's GPT-4 model to perform audio transcription, image analysis, and meeting summarization.
 
 ## File Structure
 
