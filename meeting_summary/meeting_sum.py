@@ -8,12 +8,6 @@ import llm_analysis
 # 设置页面配置
 st.set_page_config(page_title="会议纪要助手", page_icon="🎧", layout="centered")
 
-# 设置 Azure Speech 和 OpenAI API 密钥
-AZURE_SPEECH_KEY = 'YOUR_AZURE_SPEECH_KEY'
-AZURE_SPEECH_REGION = 'YOUR_AZURE_SPEECH_REGION'
-OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY'
-
-openai.api_key = OPENAI_API_KEY
 
 st.title("🎧 会议智能助手")
 
