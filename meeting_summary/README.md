@@ -17,3 +17,4 @@ This project is a meeting assistant application built with Streamlit, utilizing 
    cd meeting-summary
 
 ![image](https://github.com/user-attachments/assets/07c039f3-ed76-45a6-8d86-6fbdbb1abc49)
+![image](https://github.com/user-attachments/assets/6cb0ab01-c9a0-48d9-98e3-e3387b6e9efc)
