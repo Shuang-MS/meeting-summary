@@ -16,6 +16,9 @@ This project is a meeting assistant application built with Streamlit, utilizing 
    git clone https://github.com/yourusername/meeting-summary.git
    cd meeting-summary
 
+2. Install Required Python libs
+3. Run the App with command:  nohup streamlit run ./meeting_sum.py >nohup.log 2>&1 &
+
 ![image](https://github.com/user-attachments/assets/07c039f3-ed76-45a6-8d86-6fbdbb1abc49)
 ![image](https://github.com/user-attachments/assets/3675fba2-5c0b-49d8-8424-83363ef57a77)
 
