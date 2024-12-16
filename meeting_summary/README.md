@@ -15,3 +15,5 @@ This project is a meeting assistant application built with Streamlit, utilizing 
    ```bash
    git clone https://github.com/yourusername/meeting-summary.git
    cd meeting-summary
+
+![image](https://github.com/user-attachments/assets/07c039f3-ed76-45a6-8d86-6fbdbb1abc49)
