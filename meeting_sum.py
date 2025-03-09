@@ -61,4 +61,5 @@ if st.button("🚀 处理") and (audio_file or image_file):
         )
         
     st.subheader("📝 会议纪要")
-    st.write(summary)
+    with st.expander("点击查看会议纪要"):
+        st.markdown(summary)

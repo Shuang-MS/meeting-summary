@@ -17,7 +17,7 @@ client = AzureOpenAI(
 
 
 def call_openAI(text):
-    print(f"deploy is {GPT4o_DEPLOYMENT_ENDPOINT}")
+    print(f"deploy is {GPT4o_DEPLOYMENT_NAME}")
     response = client.chat.completions.create(
         model=GPT4o_DEPLOYMENT_NAME,
         messages = text,
@@ -52,7 +52,7 @@ def analysis_text(userPrompt,text):
     messages=[
         {"role": "system", "content": "You are a helpful assistant that responds in text. Help me with my meeting recording text!"},
         {"role": "user", "content": [
-            {"type": "text", "text": userPrompt},
+            {"type": "text", "text": question + userPrompt},
             {"type": "text", "text": text}
         ]}
     ]
